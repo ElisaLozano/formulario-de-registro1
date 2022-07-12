@@ -1,0 +1,89 @@
+
+ body {
+  background-image: url(imagenes/fondo\ _negro\ \(1\).jpg);
+} 
+.box {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-decoration-line: none;
+  margin:auto;
+  height: 1030px;
+  width: 650px;
+  background-color: rgba(9, 241, 229, 0.1);
+  border: 2px rgba(17, 156, 248);
+  border-radius: 4px;
+}
+h2{
+  color: beige;
+  margin-left: 170px;
+}
+.emoji{
+  height: 30px;
+  position:-webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color: rgba(37, 243, 250, 0.3);
+  border: 2px solid rgb(17, 156, 248);
+  border-radius: 4px;
+}
+h4{
+
+  font-size: large;
+  color: beige;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+input{
+  color: beige;
+  margin-left: 10px;
+  height: 30px;
+  width: 200px;
+  background-color: rgba(37, 243, 250, 0.3);
+  border: 2px solid rgb(17, 156, 248);
+  margin-top: 10px;
+  border-radius: 2px;
+}
+::placeholder{
+  color: beige;
+}
+.option {
+  color: beige;
+  margin-left: 10px;
+  margin-top: 25px;
+  height: 40px;
+  background-color:rgba(37, 243, 250, 0.3);
+}
+.radio {
+  color: beige;
+}
+select{
+  margin-top: 10px;
+  font-size: medium;
+background-color: rgba(37, 243, 250, 0.3);
+border: 2px solid rgb(17, 156, 248);
+border-radius: 4px;
+color: beige;
+}
+.checkbox {
+  color: beige;
+  font-size: 15px;   
+}
+.container{
+  margin-top: 15px;
+  border-radius: 4px;
+}
+.container textarea{
+  background-color: rgba(37, 243, 250, 0.3);
+  border: 2px solid rgb(17, 156, 248);
+  height: 60px;
+  width: 400px;
+  border-radius: 4px;
+}
+
+button{ 
+   background-color: rgba(37, 243, 250, 0.3);
+   border: 2px solid rgb(17, 156, 248);
+   height: 30px;
+   width: 100px;
+   border-radius: 4px;
+   color: beige;
+}

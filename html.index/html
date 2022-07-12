@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+ </html>
+  <head> 
+    <meta charset="utf-8">
+    <meta name="viewport"content="width=device-width, initial-scale=1.0">
+    <title>Formulario de registro</title>
+    <link  rel="stylesheet" type="text/css" href="style.css"/>
+  </head>
+
+  <body>
+    <section class="box">
+    <form class="registro">
+      <h4 class="emoji">&#128525 Gracias por tomarte tu tiempo para realizar esta encuesta.</h4>
+      <h2> Ejemplo de formularios.</h2>
+    <div>
+      <input type="text"  name="nombres" id="nombres" placeholder="ingresa tu nombre">
+      <input type="e-mail" name="e-mail" id="e-mail" placeholder="ingresa tu e-mail">
+      <input type="edad" name="edad" id="ingresa tu edad" placeholder="ingresa tu edad">
+    </div>
+    </form>
+
+    <form id="dropdown"> 
+     <select name="option">
+         <option disabled selected="">Conoces Monte Hermoso?</option>
+       <option value="value1">Si</option> 
+       <option value="value2">No</option>
+       <option value="value3">Pienso ir este año</option>
+       <option value="value4">Hace años que no voy a Monte</option>
+        </select>
+    </form>
+    
+      <form>
+     <h4>Recomendarias unas vacaciones en Monte Hermoso a tus amigos? </h4>
+        <div class="radio">
+     <label><input type="radio"  name="selecciona" > "Definitivamente"</label> 
+     <br>
+       
+     <label><input  type="radio"  name="selecciona"> "quizás"</label> 
+      <br>
+    <label> <input type="radio" name="selecciona" > "No estoy seguro"</label> 
+        </div>
+      </form>
+      <br>
+      <form id="dropdown">
+        <h4> Cual es tu caracteristica favorita de Monte Hermoso?<br>
+        <select name="option">
+          <option disabled selected="">Selecciona una opcion</option>
+          <option>Tranquilidad</option>
+          <option>Playa</option>
+          <option>Travesias</option>
+          <option>Comunidad</option>
+          <option>Tranquilidad</option>
+          <option>Limpieza</option>
+           
+        </select>
+      </form>
+      <br>
+      <form class="checkbox">
+        <h4> En que te gustaría que mejoremos?</h4>
+        <br>
+      
+       <label> <input type="checkbox" name="">Gastronomia.</label>
+        <br>
+      <label><input type="checkbox" name="" id="">Seguridad.</label>
+        <br>
+        <label> <input type="checkbox" name="" id="">Precios.</label>
+        <br>
+      <label> <input type="checkbox" name="" id="">Accesibilidad para realizar trámites.</label>
+        <br>
+      <label> <input type="checkbox" name="" id=""> Nuevos Comercios.</label>
+     
+      <br>
+        <div class="container">
+      Otras sugerencias
+      <textarea name="mensaje" placeholder="Escribe aqui tu mensaje" class="mensaje"></textarea>
+        </div>
+      <br>
+        <button type="submit">submit</button>
+      </form>
+    </section>
+  </body>  
+</html>
+  
